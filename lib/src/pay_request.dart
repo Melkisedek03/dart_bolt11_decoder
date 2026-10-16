@@ -22,6 +22,9 @@ enum PayRequestPrefix {
   lntbs,
   lnbc,
   lntb,
+  // Nusacoin networks (Strider's LNbits fork uses custom HRPs)
+  lntn, // Nusacoin testnet
+  lnn, // Nusacoin mainnet
 }
 
 class Bolt11PaymentRequest {
